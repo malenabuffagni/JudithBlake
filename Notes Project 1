@@ -1,1 +1,4 @@
+Code to get WB DATAFRAME
+variable_labels = {"SP.POP.TOTL":"World Population"}
+world = wbdata.get_dataframe(variable_labels, country="WLD")
 
